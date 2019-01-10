@@ -47,6 +47,3 @@ module.exports = {
     ]
   }
 };
-
-//READ THESE
-//https://davidwalsh.name/async-await
