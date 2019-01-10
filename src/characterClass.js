@@ -73,12 +73,9 @@ CharacterClass.prototype.getClassList = function(){
 CharacterClass.prototype.getClass = function(name){
   let classes = CharacterClass.prototype.getClassList();
   if(classes.includes(name)){
-    console.log(`Found a class named ${name}`);
     return CharacterClass.prototype.classes[name];
   } else {
-    console.log(`Didn't find a class named ${name}, sending default.`);
     let defaultClass = new CharacterClass;
-    console.log(defaultClass);
     return defaultClass;
   }
 }
